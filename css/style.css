@@ -46,10 +46,7 @@ hgroup h2 {
 	float: right;
 }
 
-.js hgroup h2 {
-	float: left;
-	display: none;
-}
+.js hgroup h2 {	float: left; display: none; }
 
 p, ul {
 	margin-bottom: 30px;
@@ -96,6 +93,13 @@ section {
 	clear: both;
 	margin: 0 auto;
 	width: 740px;
+}
+
+section h2 {
+	/* text-shadow: */
+		/* 1px 1px 0 #fff, */
+		/* 2px 2px 0 #bbb */
+	/* ; */
 }
 
 article h2 + p:first-line {
