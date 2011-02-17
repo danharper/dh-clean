@@ -1,0 +1,114 @@
+html {
+	background: url(../img/bg.png) repeat #f6f6f6;
+}
+
+body {
+	margin: 0 auto;
+	width: 920px;
+}
+
+header {
+	border-bottom: 1px solid #e5e5e5;
+	margin: 20px 0 45px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+h1 {
+	background: url(../img/logo.png) no-repeat;
+	float: left;
+	height: 37px;
+	width: 37px;
+}
+
+h2 {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	color: #302e2e;
+	font-size: 52px;
+	text-align: center;
+	margin: 0 -90px 45px;
+}
+
+h2 a:link, h2 a:visited {
+	color: #302e2e;
+	text-decoration: none;
+}
+
+hgroup h2 {
+	font-family: "Adobe Garamond Pro", serif;
+	font-size: 18px;
+	color: #c5c5c5;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: lowercase;
+	text-align: left;
+	margin: 10px 0 0 20px;
+	float: right;
+}
+
+.js hgroup h2 {
+	float: left;
+	display: none;
+}
+
+p, ul {
+	margin-bottom: 30px;
+}
+
+nav {
+	color: #8a8a8a;
+	float: left;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	margin-left: 20px;
+	margin-top: 3px;
+	text-transform: lowercase;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav a:link, nav a:visited {
+	color: #8a8a8a;
+	text-decoration: none;
+}
+
+nav .current a:link, nav .current a:visited {
+	color: #4b4b4b;
+}
+
+nav a:hover, nav a:focus {
+	border-bottom: 1px dotted;
+}
+
+section {
+	font-family: "Adobe Garamond Pro", serif;
+	color: #4c4a4a;
+	font-size: 20px;
+	line-height: 31px;
+	clear: both;
+	margin: 0 auto;
+	width: 740px;
+}
+
+article h2 + p:first-line {
+	font-variant: small-caps;
+}
+
+figure {
+	margin: 0 -90px 30px;
+	width: 920px;
+}
+
+figcaption {
+	font-size: 14px;
+	color: #aaa;
+	padding: 0 90px;
+}
