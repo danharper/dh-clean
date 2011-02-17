@@ -2,16 +2,18 @@ html {
 	background: url(../img/bg.png) repeat #f6f6f6;
 }
 
-body {
-	margin: 0 auto;
-	width: 920px;
-}
-
-body > header {
+#headerwrap {
 	border-bottom: 1px solid #e5e5e5;
-	margin: 20px 0 45px;
+	margin: 0 0 45px;
 	overflow: hidden;
 	padding-bottom: 20px;
+	background: #f4f4f4;
+	padding: 15px 0;
+}
+
+#headerwrap header {
+	width: 920px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -38,7 +40,7 @@ h2 a:link, h2 a:visited {
 hgroup h2 {
 	font-family: "Adobe Garamond Pro", serif;
 	font-size: 18px;
-	color: #c5c5c5;
+	color: #bbb;
 	font-weight: normal;
 	font-style: italic;
 	text-transform: lowercase;
@@ -86,7 +88,7 @@ nav a:hover, nav a:focus {
 	border-bottom: 1px dotted;
 }
 
-body > section {
+#wrap {
 	font-family: "Adobe Garamond Pro", serif;
 	color: #4c4a4a;
 	font-size: 20px;
@@ -124,7 +126,7 @@ article header {
 article header p {
 	-webkit-transform: rotate(-90deg);
 	left: 100px;
-	top: 250px;
+	top: 240px;
 	position: absolute;
 	margin: 0;
 	color: #666;
@@ -163,4 +165,12 @@ figcaption {
 	font-size: 14px;
 	color: #aaa;
 	padding: 0 90px;
+}
+
+code {
+	font-size: 12px;
+	background: #eee;
+	color: #666;
+	padding: 3px;
+	font-family: "M+ 1m", monospace;
 }
