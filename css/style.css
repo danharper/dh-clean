@@ -1,4 +1,4 @@
-html {
+body {
 	background: url(../img/bg.png) repeat #f6f6f6;
 }
 
@@ -173,4 +173,80 @@ code {
 	color: #666;
 	padding: 3px;
 	font-family: "M+ 1m", monospace;
+}
+
+#home {
+	background: url(../img/bg-large.png) repeat #f6f6f6;
+}
+
+#home section {
+	width: 631px;
+	margin: 90px auto;
+}
+
+#home h1 {
+	width: 210px;
+	height: 210px;
+	background: url(../img/logo-large.png) no-repeat;
+	float: right;
+}
+
+#home nav {
+	width: 420px;
+	float: left;
+	margin: 0;
+}
+
+#home li {
+	margin: 0;
+}
+
+#home li a {
+	width: 400px;
+	font-family: "Yanone Kaffeesatz", serif;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 49px;
+	line-height: 70px;
+	border: none;
+	height: 69px;
+	background: #c91111;
+	display: block;
+	color: #f0f0f0;
+	padding: 0 0 0 20px;
+	margin: 0 0 1px;
+}
+
+#home li a:hover {
+	background: -moz-linear-gradient(top, #e21919, #b00909);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e21919),color-stop(1, #b00909));
+	background: -webkit-gradient(top, #e21919, #b00909);
+	background: linear-gradient(top, #e21919, #b00909);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e21919', EndColorStr='#b00909');
+}
+
+#home li:last-child a {
+	margin: 0;
+	height: 70px;
+}
+
+#home footer {
+	color: #b2b2b2;
+	font-family: "M+ 1m", sans-serif;
+	font-size: 13px;
+	clear: both;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#home footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+#home small {
+	display: block;
+	margin-top: 7px;
+	color: #c9c9c9;
+	font-size: 12px;
 }
