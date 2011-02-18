@@ -16,6 +16,13 @@ body {
 	margin: 0 auto;
 }
 
+.alignright {
+	float: right;
+	padding: 5px;
+	/* border: 3px double #ddd; */
+	margin: 0 -90px 10px 10px;
+}
+
 h1 {
 	background: url(../img/logo.png) no-repeat;
 	float: left;
@@ -35,6 +42,10 @@ h2 {
 h2 a:link, h2 a:visited {
 	color: #302e2e;
 	text-decoration: none;
+}
+
+h2 a:hover, h2 a:focus {
+	/* border-bottom: 1px dashed; */
 }
 
 hgroup h2 {
@@ -103,6 +114,17 @@ section h2 {
 		/* 1px 1px 0 #fff, */
 		/* 2px 2px 0 #bbb */
 	/* ; */
+}
+
+article {
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+	border-bottom: 3px double #ddd;
+}
+
+article:last-of-type, #singlepost {
+	padding-bottom: 0;
+	border: none;
 }
 
 article header {
@@ -242,6 +264,10 @@ code {
 #home footer a {
 	color: #999;
 	text-decoration: none;
+}
+
+#home footer a:hover {
+	border-bottom: 1px dotted;
 }
 
 #home small {
