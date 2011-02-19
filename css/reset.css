@@ -43,9 +43,9 @@ blockquote, q { quotes:none; }
 blockquote:before, blockquote:after,
 q:before, q:after { content:''; content:none; }
 
-ins { background-color:#ff9; color:#000; text-decoration:none; }
+ins { background-color:#fedae3; color:#000; text-decoration:none; }
 
-mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold; }
+mark { background-color:#ff9; color:#000; }
 
 del { text-decoration: line-through; }
 
