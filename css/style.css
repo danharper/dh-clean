@@ -131,6 +131,34 @@ article header {
 	clear: both;
 }
 
+#opensource {
+	margin: 0;
+}
+
+#opensource a {
+	background: #237CCF;
+	color: #fff;
+	display: block;
+	padding: 15px 0;
+	margin: 0 0 40px;
+	-webkit-border-radius: 5px;
+	font-size: 32px;
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transition: 0.4s background;
+}
+
+#opensource a:hover {
+	background: #c91111;
+}
+
+#opensource span {
+	background: url(../img/opensource.png) no-repeat center left;
+	padding-left: 50px;
+}
+
 /* article header p { */
 	/* -webkit-transform: rotate(-90deg); */
 	/* float: left; */
@@ -275,4 +303,23 @@ code {
 	margin-top: 7px;
 	color: #c9c9c9;
 	font-size: 12px;
+}
+
+/* #aboutme h2 { */
+	/* background: url(../img/about-me.png) no-repeat; */
+	/* text-indent: -9999em; */
+	/* width: 368px; */
+	/* height: 132px; */
+/* } */
+
+#aboutme h2 {
+	text-align: left;
+	margin-left: 0;
+}
+
+#aboutme figure {
+	float: right;
+	display: block;
+	width: auto;
+	margin: -90px -40px 5px 10px;
 }
