@@ -23,7 +23,7 @@ body {
 	margin: 0 -90px 10px 10px;
 }
 
-h1 {
+h1 a:link, h1 a:visited {
 	background: url(../img/logo.png) no-repeat;
 	float: left;
 	height: 37px;
@@ -135,22 +135,26 @@ article header {
 	margin: 0;
 }
 
-#opensource a {
+#opensource a:link, #opensource a:visited {
 	background: #237CCF;
 	color: #fff;
 	display: block;
 	padding: 15px 0;
 	margin: 0 0 40px;
 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	font-size: 32px;
 	font-family: "Yanone Kaffeesatz", sans-serif;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
 	-webkit-transition: 0.4s background;
+	-moz-transition: 0.4s background;
+	transition: 0.4s background;
 }
 
-#opensource a:hover {
+#opensource a:hover, #opensource a:focus {
 	background: #c91111;
 }
 
@@ -159,22 +163,12 @@ article header {
 	padding-left: 50px;
 }
 
-/* article header p { */
-	/* -webkit-transform: rotate(-90deg); */
-	/* float: left; */
-	/* margin: 0; */
-	/* font-size: 19px; */
-	/* line-height: 1em; */
-	/* margin-left: -140px; */
-	/* font-family: "Yanone Kaffeesatz", sans-serif; */
-	/* font-weight: lighter; */
-	/* color: rgba(0,0,0,0.3); */
-	/* margin-top: 60px; */
-	/* height: 0; */
-/* } */
-
 article header p {
 	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 	left: 100px;
 	top: 240px;
 	position: absolute;
@@ -237,7 +231,7 @@ code {
 #home h1 {
 	width: 210px;
 	height: 210px;
-	background: url(../img/logo-large.png) no-repeat;
+	background: url(../img/home.png) no-repeat;
 	float: right;
 }
 
@@ -251,7 +245,7 @@ code {
 	margin: 0;
 }
 
-#home li a {
+#home li a:link, #home li a:visited {
 	width: 400px;
 	font-family: "Yanone Kaffeesatz", serif;
 	text-transform: none;
@@ -267,7 +261,7 @@ code {
 	margin: 0 0 1px;
 }
 
-#home li a:hover {
+#home li a:hover, #home li a:focus {
 	background: -moz-linear-gradient(top, #e21919, #b00909);
 	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e21919),color-stop(1, #b00909));
 	background: -webkit-gradient(top, #e21919, #b00909);
@@ -275,7 +269,7 @@ code {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e21919', EndColorStr='#b00909');
 }
 
-#home li:last-child a {
+#home li:last-child a:link, #home li:last-child a:visited {
 	margin: 0;
 	height: 70px;
 }
@@ -289,12 +283,12 @@ code {
 	padding-top: 25px;
 }
 
-#home footer a {
+#home footer a:link, #home footer a:visited {
 	color: #999;
 	text-decoration: none;
 }
 
-#home footer a:hover {
+#home footer a:hover, #home footer a:focus {
 	border-bottom: 1px dotted;
 }
 
@@ -312,7 +306,7 @@ code {
 	/* height: 132px; */
 /* } */
 
-#aboutme h2 {
+#aboutme section h2 {
 	text-align: left;
 	margin-left: 0;
 }
