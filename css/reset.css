@@ -182,6 +182,8 @@ button {  width: auto; overflow: visible; }
 /* fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
 
+b { font-weight: bold; }
+i { font-style: italic; }
 
 
 /*

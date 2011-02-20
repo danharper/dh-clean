@@ -37,21 +37,21 @@ $(function() {
 	);
 
 	// Change homepage logo when hover over nav items
-	$(homenav).hover(
-		function () {
-			if (this === homenav[0]) {
-				homeh1.css('backgroundPosition', '-210px');
-			}
-			else if (this === homenav[1]) {
-				homeh1.css('backgroundPosition', '-420px');
-			}
-			else {
-				homeh1.css('backgroundPosition', '-630px');
-			}
-		},
-		function () {
-			homeh1.css('backgroundPosition', '0');
-		}
-	);
+	// $(homenav).hover(
+		// function () {
+			// if (this === homenav[0]) {
+				// homeh1.css('backgroundPosition', '-210px');
+			// }
+			// else if (this === homenav[1]) {
+				// homeh1.css('backgroundPosition', '-420px');
+			// }
+			// else {
+				// homeh1.css('backgroundPosition', '-630px');
+			// }
+		// },
+		// function () {
+			// homeh1.css('backgroundPosition', '0');
+		// }
+	// );
 
 });

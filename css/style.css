@@ -274,7 +274,7 @@ code {
 	height: 70px;
 }
 
-#home footer {
+footer {
 	color: #b2b2b2;
 	font-family: "M+ 1m", sans-serif;
 	font-size: 13px;
@@ -283,16 +283,16 @@ code {
 	padding-top: 25px;
 }
 
-#home footer a:link, #home footer a:visited {
+footer a:link, footer a:visited {
 	color: #999;
 	text-decoration: none;
 }
 
-#home footer a:hover, #home footer a:focus {
+footer a:hover, footer a:focus {
 	border-bottom: 1px dotted;
 }
 
-#home small {
+small {
 	display: block;
 	margin-top: 7px;
 	color: #c9c9c9;
